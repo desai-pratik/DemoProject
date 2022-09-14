@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*=========================================
+                 header
+==========================================*/
+#header .container {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  background-color: black;
+  display: flex;
+}
+#header .container ul li {
+  list-style: none;
+  padding: 10px 15px;
+  color: white;
+  display: inline-flex;
+}
+#header .container ul #dropdown #list {
+  margin-top: 30px;
+  display: none;
+}
+#header .container ul #dropdown #list li {
+  background-color: white;
+  color: black;
+  padding: 10px 100px 10px 20px;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#header .container ul #logo {
+  background-color: rgb(2, 161, 163);
+}
+#header .container ul #glass {
+  position: absolute;
+  right: 0px;
+  height: 41px;
+  padding: 10px 20px 0px 20px;
+}
+#header .container ul #mobi {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-weight: 700;
+  display: none;
+}
+
+#header .container a {
+  text-decoration: none;
+}
+#header .container #back {
+  display: none;
+}
+/* ------ hover -------- */
+
+#header .container ul #logo:hover {
+  color: black;
+  background-color: rgb(197, 194, 194);
+}
+#header .container ul #tea:hover,
+#header .container ul #wor:hover,
+#header .container ul #pric:hover,
+#header .container ul #contac:hover {
+  background-color: white;
+  color: black;
+  height: 40px;
+}
+
+#header .container ul #dropdown:hover {
+  background-color: rgb(197, 194, 194);
+  color: black;
+  height: 40px;
+}
+#header .container ul #mobi:hover {
+  background-color: white;
+  color: black;
+}
+#header .container ul #dropdown:hover #list {
+  display: block;
+}
+#header .container ul #dropdown #list li:hover {
+  background-color: rgb(197, 194, 194);
+}
+#header .container ul #glass:hover {
+  background-color: rgb(2, 161, 163);
+}
+/*=========================================
+                 home
+==========================================*/
+
+#home .container img {
+  width: 100%;
+  height: 94vh;
+  object-fit: cover;
+}
+#home .container h1 {
+  font-weight: 400;
+  position: absolute;
+  bottom: 58px;
+  left: 18px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+}
+/* ------ hover -------- */
+#home .container h1:hover {
+  background-color: rgb(2, 161, 163);
+}
+
+/*=========================================
+                 team
+==========================================*/
+#team .container #heading h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 70px 0px 20px 0px;
+}
+#team #heading h4 {
+  text-align: center;
+  font-weight: 400;
+}
+
+#team-name {
+  display: flex;
+  width: 100%;
+}
+#team #team-name .div1,
+#team #team-name .div2,
+#team #team-name .div3,
+#team #team-name .div4 {
+  width: 25%;
+  text-align: center;
+  margin: 45px 0px 75px 0px;
+}
+
+#team #team-name img {
+  border-radius: 50%;
+  opacity: 0.5;
+  height: 150px;
+  width: 150px;
+}
+#team #team-name h3,
+#team #team-name h4 {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+/* ------ hover -------- */
+#team #team-name img:hover {
+  opacity: 1.0;
+}
+/*=========================================
+                 work
+==========================================*/
+#work .container {
+  position: relative;
+  display: flex;
+  background-color: rgb(68, 61, 61);
+  padding: 64px 20px 64px 20px;
+  width: 100%;
+}
+#work .container .right {
+  color: white;
+}
+#work .container .right h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+#work .container .right p {
+  line-height: 25px;
+  font-weight: 400;
+  margin: 20px 25px 20px 0px;
+}
+#work .container .left {
+  display: flex;
+
+}
+#work .container .left img {
+  width: 22vw;
+}
+#work .container .left .parvat {
+  background-color: white;
+  margin: 0px 9px 50px 9px;
+  height: 85%;
+}
+#work .container .left .logic {
+  background-color: white;
+  margin: 0px 9px 50px 9px;
+  height: 85%;
+}
+#work .container .left .nadi {
+  background-color: white;
+  margin: 0px 9px 50px 9px;
+  height: 85%;
+}
+#work .container .left h2 {
+  padding: 20px 0px 10px 15px;
+  font-weight: 400;
+}
+#work .container .left h3 {
+  padding: 15px 0px 10px 15px;
+  font-weight: 400;
+}
+#work .container .left p {
+  padding: 7px 0px 30px 20px;
+  line-height: 30px;
+}
+
+#work .container .left .plus i {
+  font-size: 20px;
+  padding: 18px;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(2, 161, 163);
+}
+#work .container .left .plus {
+  position: absolute;
+  bottom: -27px;
+  right: 30px;
+}
+#work .container #qwe {
+  color: black;
+  background-color: white;
+  position: fixed;
+}
+/* ------ hover -------- */
+#work .container .left .plus i:hover {
+  color: black;
+  background-color: rgb(197, 194, 194);
+}
+/*=========================================
+                 PRICE
+==========================================*/
+
+#price #heading h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 70px 0px 20px 0px;
+}
+#price #heading h4 {
+  text-align: center;
+  font-weight: 400;
+}
+#price .container #down {
+  display: inline-flex;
+  width: 100%;
+  text-align: center;
+  padding: 64px 8px 64px 8px;
+}
+#price #down #basic {
+  width: 33%;
+  margin: 0px 8px 0px 8px;
+}
+#price #down #pro {
+  width: 33%;
+  margin: 0px 8px 0px 8px;
+}
+#price #down #premium {
+  width: 33%;
+  margin: 0px 8px 0px 8px;
+}
+#price #down h2 {
+  padding: 32px 0px 32px 0px;
+  color: white;
+  background-color: black;
+  font-weight: 400;
+}
+#price #down #pro h2 {
+  background-color: rgb(119, 118, 118);
+}
+#price .container h5 {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 20px 0px 20px 0px;
+  border: 1px solid rgb(223, 219, 219);
+  border-top: 0px;
+}
+#price .container .price {
+  padding: 20px 0px 20px 0px;
+  border: 1px solid rgb(223, 219, 219);
+  border-top: 0px;
+}
+#price .container .price h4 {
+  padding-top: 15px;
+  font-weight: 300;
+}
+#price .container .price h1 strong {
+  font-size: 40px;
+  font-weight: 500;
+}
+#price .container .btn {
+  background-color: #ececec;
+  padding: 38px 0px 38px 0px;
+  border: 1px solid rgb(223, 219, 219);
+  border-top: 0px;
+}
+#price .container .btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  background-color: rgb(15, 144, 146);
+  padding: 12px 20px 12px 20px;
+}
+
+/* ------ hover -------- */
+#price .container #down #basic:hover,
+#price .container #down #pro:hover,
+#price .container #down #premium:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#price .container .btn a:hover {
+  background-color: rgb(197, 194, 194);
+  color: black;
+}
+/*================================================
+                       contact
+==================================================*/
+#contact .container {
+  display: inline-flex;
+  background-color: #ececec;
+  padding: 64px 16px 64px 16px;
+  width: 100%;
+}
+#contact .container .right h1 {
+  display: inline;
+  border-bottom: 7px solid rgb(15, 144, 146);
+  font-weight: 400;
+}
+#contact .container .right h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 35px 0px 25px 0px;
+}
+#contact .container .right p {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+#contact .container .right h5 i {
+  font-size: 20px;
+  margin-right: 12px;
+  color: rgb(15, 144, 146);
+}
+#contact .container .right h5 {
+  margin: 0px 0px 30px 0px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+#contact .container .left {
+  background-color: white;
+  position: absolute;
+  right: 3%;
+  padding: 30px 20px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 55%;
+}
+#contact .container .left input {
+  border: none;
+  width: 99%;
+  height: 40px;
+  border-bottom: 1px solid gray;
+}
+#contact .container .left #checkbox input {
+  width: 25px;
+  height: 25px;
+  margin: 20px 5px 0px 0px;
+}
+#contact .container .left button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  float: right;
+}
+/* ------ hover -------- */
+#contact .container .left button:hover {
+  background-color: rgb(197, 194, 194);
+  color: black;
+  border: none;
+}
+/*================================================
+                       map
+==================================================*/
+#map img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/*================================================
+                     footer
+==================================================*/
+#footer .container {
+  position: relative;
+  text-align: center;
+  background-color: black;
+  padding-top: 45px;
+}
+#footer .container h3 {
+  font-weight: 400;
+  color: white;
+  margin-bottom: 20px;
+}
+#footer .container i {
+  font-size: 17px;
+  padding: 15px;
+  color: white;
+  margin-left: 2px;
+  background-color: rgb(2, 161, 163);
+}
+
+#footer .container p {
+  color: white;
+  padding: 20px 0px 100px 0px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+#footer .container p a {
+  color: white;
+}
+#footer .container #to-top i {
+  display: inline;
+  border-radius: 50%;
+  font-size: 22px;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  position: absolute;
+  right: 20px;
+  top: 90px;
+}
+#footer .container #to-top h4 {
+  display: inline;
+  padding: 10px;
+  position: absolute;
+  right: 75px;
+  top: 94px;
+  background-color: rgb(2, 161, 163);
+  display: none;
+  font-weight: 500;
+}
+
+/* ------ hover -------- */
+#footer .container i:hover {
+  background-color: rgb(197, 194, 194);
+  color: black;
+}
+#footer .container #to-top i:hover {
+  border-radius: 0px;
+  background-color: rgb(197, 194, 194);
+  color: black;
+}
+#footer .container #to-top:hover h4 {
+  display: block;
+}
+
+
+

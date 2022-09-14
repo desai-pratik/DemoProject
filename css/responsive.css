@@ -1,0 +1,96 @@
+
+@media (max-width: 599px) { 
+
+
+  #header .container ul #mobi {
+    display: inline;
+  }
+  #header .container ul #tea,
+  #header .container ul #wor,
+  #header .container ul #pric,
+  #header .container ul #contac,
+  #header .container ul #dropdown, 
+   #header .container ul #glass{
+    display: none;
+   }
+  
+
+  /*======home=========*/
+  #home .container img {
+    height: 75vh;
+  }
+  #home .container h1 {
+    bottom: 150px;
+  }
+
+  /*======team=========*/
+  #team-name {
+    display: block;
+  }
+#team #team-name .div1,
+#team #team-name .div2,
+#team #team-name .div3,
+#team #team-name .div4 {
+  width: 100%;
+  text-align: center;
+  }
+  #team #team-name img {
+    height: 250px;
+    width: 250px;
+  }
+
+  /*======work=========*/
+  #work .container {
+    display: block;
+    height: 100%;
+  }
+  #work .container .left {
+    display: block;
+  }
+  #work .container .left img {
+    width: 100%;
+  }
+
+  /*======price=========*/
+  #price .container #down {
+    display: block;
+  }
+  #price #down #basic,
+  #price #down #pro,
+  #price #down #premium {
+    width: 98%;
+    margin-bottom: 15px;
+  }
+
+  /*======contact=========*/
+  #contact .container {
+    display: block;
+  }
+  #contact .container .left {
+    position: relative;
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+  }
+  #contact .container .left button {
+    position: relative;
+    bottom: 37px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
